@@ -1,10 +1,10 @@
 import type { ContentCategoryId } from "@/lib/contentCategories";
 
 /**
- * Canais do [Nosso Player](https://nossoplayeronlinehd.ink/) — slugs de
+ * Canais do player — slugs de
  * `data-channel`. Campo `category` filtra o portal da página inicial.
  */
-export const NOSSO_PLAYER_ORIGIN = "https://nossoplayeronlinehd.ink";
+export const NOSSO_PLAYER_ORIGIN = "https://redecanaistv.by/";
 
 export type NossoPlayerChannel = {
   name: string;

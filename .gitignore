@@ -14,9 +14,7 @@ web-build/
 playlist.m3u
 *.m3u.local
 
-# Capacitor — projeto Android (gerado com `npx cap add android`)
-android/
-
+# Capacitor Android: faz commit da pasta `android/`; `local.properties` fica ignorado.
 # Serwist (PWA)
 public/sw.js
 public/sw.js.map
